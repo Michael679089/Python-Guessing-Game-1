@@ -37,7 +37,7 @@ def StartGuessingGame():
     # Game Over Outputs
     print(f'\nmy generated age is = {age}')
     print(f'your last guess = {guess}\n')
-    print(f'Your won: {lives}')
+    print(f'You won: {lives}')
     print(f'Your Score: {score}')
     tryAgainInput = int(input("Want to play again? (1 for yes | Any for no) : "))
     if tryAgainInput == 1:
